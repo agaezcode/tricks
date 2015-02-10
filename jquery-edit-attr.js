@@ -2,7 +2,7 @@
 $('img').each(function(){
  var alt = this.getAttribute('alt');
  if (alt === null) {
-   alert('null, the "alt" atribute doesn't exists')
+   alert('null, the "alt" atribute doesn'/t exists')
   } else if (alt === '') {
    alert('empty') // or
    // $("img").attr("src","default-picture.png");
